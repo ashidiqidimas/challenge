@@ -1,0 +1,239 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navigation {
+    font-size: 0.75rem;
+}
+
+/* Utils */
+.half-opacity {
+    opacity: 0.5;
+}
+
+/* ini ternyata ada di bootstrap semua tapi saya males refactornya xixi */
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-end {
+    justify-content: flex-end;
+}
+
+.main-start {
+    justify-content: flex-start;
+}
+
+.main-center {
+    justify-content: center;
+}
+
+.main-space-evenly {
+    justify-content: space-evenly;
+}
+
+.main-space-between {
+    justify-content: space-between;
+}
+
+/* Navbar */
+nav {
+    /*position: fixed;*/
+    top: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 3vh 10vw !important;
+}
+
+nav a {
+    color: white;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.nav-buttons {
+    flex-grow: 2;
+}
+
+/* Header Section */
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/main-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+header div.row {
+    height: 100%;
+    width: 100%;
+}
+
+.cta {
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+}
+
+header div {
+    position: absolute;
+    bottom: 1.5rem;
+}
+
+/* Sections */
+section {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 64px;
+}
+
+/*The Game Section*/
+#the-game {
+    background-image: url("../assets/the-games-bg.jpg");
+}
+
+#the-game div {
+    height: 70vh;
+    width: 100%;
+}
+
+.carousel-img {
+    width: 100%;
+}
+
+.carousel-img {
+    background-image: url("../assets/rockpaperstrategy-1600.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*Features Section*/
+#features {
+    background-image: url("../assets/features.jpg");
+}
+
+#features div {
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*padding: 40px;*/
+}
+
+.roadmap {
+    margin: 0;
+}
+
+#features h3 {
+    color: #F3AF34;
+}
+
+/*Requirements*/
+#requirements {
+    background-image: url("../assets/requirements.png");
+}
+
+table {
+    width: 30% !important;
+}
+
+tr h3 {
+    color: #F3AF34;
+}
+
+/*Reviews Section*/
+#reviews {
+    background-image: url("../assets/top-score-bg.png");
+}
+
+.review-card {
+    background: rgba(20, 20, 20);
+    padding: 16px 24px;
+    border-radius: 8px;
+}
+
+.profile-pic {
+    height: 64px;
+    border-radius: 100px;
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    color: #F3AF34;
+}
+
+.profile-sub {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.caption {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*Newsletter Section*/
+#newsletter {
+    background-image: url("../assets/newsletter.png");
+}
+
+form {
+    margin-left: 0;
+}
+
+.form-group {
+    border: none;
+    background-color: rgba(40, 40, 40);
+    padding-bottom: 16px;
+    border-radius: 10px;
+}
+
+.form-field {
+    border: none;
+    background-color: rgba(40, 40, 40);
+}
+
+/*Footer*/
+footer {
+    padding: 2rem 4rem;
+    background-color: #080A0B;
+}
+
+a.navigation {
+    color: white;
+}
+
+.divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}

@@ -34,3 +34,21 @@ I use **port 8000** for this assignment
    ```
 5. Delete a user for the given id  
    GET localhost:8000/users/delete/:id
+
+## Challenge
+1. Landing page endpoint  
+   GET http://localhost:8000
+   Landing page endpoint  
+   GET http://localhost:8000/play
+   
+2. Login endpoint  
+   POST localhost:8000/users/login  
+   ```json
+   {
+    "email": "budi@email.com",
+    "password": "bud1"
+   }
+   ```
+
+4. Serving static user data to JSON endpoint  
+   GET localhost:8000/users
